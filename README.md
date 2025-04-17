@@ -14,7 +14,7 @@ Project inspired by [elkayem/midi2cv](https://github.com/elkayem/midi2cv), but u
 The operational amplifier is configured as a non-inverting amplifier with the following resistors:
 
 - **R1 = 10kΩ** (between the inverting input and GND)
-- **R2 = 7.7kΩ** (between the output and the inverting input)
+- **R2 = 6.8kΩ + 900Ω _(from trimpot)_ = 7.7kΩ** (between the output and the inverting input)
 
 The amplification factor (gain) is calculated as:
 
