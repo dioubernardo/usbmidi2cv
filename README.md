@@ -18,7 +18,7 @@ The operational amplifier is configured as a non-inverting amplifier with the fo
 
 The amplification factor (gain) is calculated as:
 
-A = 1 + (R2/R1) = 1 + (7.7kΩ/10kΩ) = 1.77
+Amplification = 1 + (R2/R1) = 1 + (7.7kΩ/10kΩ) = 1.77
 
 Therefore, the gain is **1.77x**.
 
