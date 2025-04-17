@@ -11,6 +11,17 @@ Project inspired by [elkayem/midi2cv](https://github.com/elkayem/midi2cv), but u
 
 > ⚠️ The resistors connected to the A output of the LM324N don't need to match exact values, as long as they maintain an amplification ratio of approximately 1.77. Inaccurate values may affect 1V/Oct tuning.
 
+The operational amplifier is configured as a non-inverting amplifier with the following resistors:
+
+- **R1 = 10kΩ** (between the inverting input and GND)
+- **R2 = 7.7kΩ** (between the output and the inverting input)
+
+The amplification factor (gain) is calculated as:
+
+A = 1 + (R2/R1) = 1 + (7.7kΩ/10kΩ) = 1.77
+
+Therefore, the gain is **1.77x**.
+
 ## How It Works
 
 - When a MIDI note is received (regardless of channel), it is converted to CV in 1V/Oct format, with C0 = 0V, C1 = 1V, C2 = 2V... covering 88 notes total.
