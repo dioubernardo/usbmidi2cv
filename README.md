@@ -23,8 +23,12 @@ Project inspired by [elkayem/midi2cv](https://github.com/elkayem/midi2cv), but u
 
 ## Schematic
 
-> (Add an image or link to your schematic here)
+![Schematic](https://github.com/dioubernardo/usbmidi2cv/blob/main/diagram.png)
+
+The file [`usbmidi2cv.sch`](https://github.com/dioubernardo/usbmidi2cv/blob/main/usbmidi2cv.sch) contains the schematic and can be edited using Eagle.
 
 ## PCB
 
-> (Add an image or link to your PCB layout here)
+Designed to work as an Arduino shield, this PCB can be easily etched on a single-sided copper board for DIY builds.
+
+The file [`usbmidi2cv.brd`](https://github.com/dioubernardo/usbmidi2cv/blob/main/usbmidi2cv.brd) contains the PCB layout, also editable in Eagle.
