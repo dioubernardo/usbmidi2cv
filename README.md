@@ -42,4 +42,8 @@ The file [`usbmidi2cv.sch`](https://github.com/dioubernardo/usbmidi2cv/blob/main
 
 Designed to work as an Arduino shield, this PCB can be easily etched on a single-sided copper board for DIY builds.
 
+![Board](https://github.com/dioubernardo/usbmidi2cv/blob/main/board.png)
+
 The file [`usbmidi2cv.brd`](https://github.com/dioubernardo/usbmidi2cv/blob/main/usbmidi2cv.brd) contains the PCB layout, also editable in Eagle.
+
+To print, use the file [pcb.pdf](https://github.com/dioubernardo/usbmidi2cv/blob/main/pcb.pdf).
